@@ -100,7 +100,7 @@ class Challenge {
 				type: 'TXT',
 				name: fullRecordName,
 				content: args.challenge.dnsAuthorization,
-				ttl: 5,
+				ttl: 60,
 			});
 			// verify propagation
 			if(this.options.verifyPropagation) {
